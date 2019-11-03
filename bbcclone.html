@@ -1,0 +1,363 @@
+<html>
+	<head>
+		
+		<title>Technology - BBC News</title>
+		
+		<style type="text/css">
+			
+			#topbar{
+				
+				width:1000px;
+				margin:0 auto;
+				height:38px;
+				
+			}
+			body{
+				margin:0;
+				padding:0;
+				font-family: Helmet,Freesans,Helvetica,Arial,sans-serif;
+			}
+			#logo{
+				margin-top:2px;
+				margin-right:8px;
+				height:32px;
+				width:85px;
+				float:left;
+			}
+			
+			.topbar-section{
+				float:left;
+				border-left: 1px #CCCCCC solid;
+				height:100%;
+			}
+			#signin-img{
+				margin:8px;
+				margin-left:14px;
+				margin-right:7px;
+				margin-bottom:0px;
+				height:20px;
+				float:left;
+			}
+			#signin-text{
+				font-weight:bold;
+				
+				position:relative;
+				top:8px;
+				
+				padding-right:50px;
+				float:left;
+				
+			}
+			.topbar-menu{
+				font-weight:bold;
+				font-size: 90%;
+				padding:10px 13px 6px 13px;
+				height:22px;
+				
+			}
+			#arrow{
+				width:20px;
+				margin-left:25px;	
+				float:right;
+			}
+			#search-box{
+				height:75%;
+				background-color:#E4E4E4;
+				border:none;
+				font-size:12px;
+				font-weight:bold;
+				padding:5px;
+				margin:4px 0 0 5px ;
+			}
+			#magnify-glass{
+				
+				height:75%;
+				margin-top:4px;
+				float:right;
+			}
+			.clear{
+				clear:both;
+			}
+			#menu-bar-container{
+				background-color:#BB1919;
+				width:100%;
+				height:65px;
+			}
+			#menu-bar{
+				width:1000px;
+				margin:0 auto;
+			}
+			h1{
+				margin:0;
+				padding-top:10px;
+				font-size:40px;
+				font-weight:normal;
+				color:white;
+			}
+			#home-bar-container{
+				width:100%;
+				height:35px;
+				background-color:#A91717;
+			}
+			#home-bar{
+				width:1000px;
+				margin:0 auto;
+			}
+			#home-bar a {
+				color:white;
+				padding-right:10px;
+				padding-left:5px;
+				padding-top:8px;
+				padding-bottom:8px;
+				float:left;
+				border-right: 1px #BB4545 solid;
+			}
+			#home-bar a:hover{
+				text-decoration:underline;
+			}
+			#more-arrow{
+				float:left;
+				padding-left:4px;
+				padding-top:10px;
+			}
+			.no-border{
+				border:none !important;
+			}
+			#article-container{
+				width:1000px;
+				margin: 0 auto;
+			}
+			#main-article{
+				
+			}
+			h2{
+				border-bottom:3px solid #BB1919;
+				font-weight:normal;
+				font-size:20px;
+				width:102px;
+			}
+			h3{
+				font-size:30px;
+				font-weight:strong;
+			}
+			h3:hover  {
+				
+				color:#1167A8;
+			}
+			#article-body{
+				width:250px;
+				font-color:#5A5A5A;
+				font-size:15px;
+				float:left;
+			}
+			.clock{
+				height:25px;
+				position:relative;
+				top:7px;
+			}
+			#page-link{
+				color:#BB1919;
+				border-left:1px solid #CCCCCC;
+				padding-left:8px;
+				text-decoration:none;
+				font-size:90%;
+			}
+			
+			.links{
+				font-size:90%;
+				text-decoration:none;
+				color:black;
+			}
+			.date{
+				margin-right:5px;
+			}
+			#page-link:hover{
+				color:#1167A8;
+			}
+			.links:hover{
+				color:#1167A8;
+			}
+			#article-container2{
+				float:left;
+				width:650px;
+				border-right: 1px solid #CCCCCC;
+				position:relative;
+				
+			}
+			#whatsapp{
+				height:230px;
+				width:370px;
+				margin-left:10px;
+				margin-right:10px;
+			}
+			#article-hr{
+				border-top:1px solid #A91717;
+				width:50px;
+			}
+			#video-container{
+				float:left;
+				margin-left: 15px;
+				width:330px;
+				position:relative;
+				bottom:15px;
+			}
+			#video-head{
+				font-size:25px;
+			}
+			.video-image{
+				float:left;
+				margin-right:7px;
+				width:95px;
+				height:60px;
+			}
+			.video-link{
+				text-decoration:none;
+				color:#000000;
+				font-weight:bold;
+				font-size:16px;
+				
+			}
+			.video-link:hover{
+				color:#1167A8;
+			}
+			.video-article{
+				float:right;
+				width:220px;
+				position:relative;
+				bottom:0px;
+			}
+			.video-time{
+				position:relative;
+				bottom:20px;
+				width:250px;
+			}
+			#article-body{
+				position:relative;
+				bottom:15px;
+			}
+			
+		</style>
+		
+	</head>
+	
+	
+	<body>
+		
+		<div id="topbar">
+			
+			<img id="logo" src="images/bbclogo.png" >
+			<div id="signin-div" class="topbar-section">
+				
+				<img id="signin-img" src="images/signin.png">
+				<span id="signin-text">Sign in</span>
+				
+			</div>
+			
+			<div class="topbar-section topbar-menu">
+				News
+			</div>
+			<div class="topbar-section topbar-menu">
+				Sport
+			</div>
+			<div class="topbar-section topbar-menu">
+				Weather
+			</div>
+			<div class="topbar-section topbar-menu">
+				Shop
+			</div>
+			<div class="topbar-section topbar-menu">
+				Reel
+			</div>
+			<div class="topbar-section topbar-menu">
+				Travel
+			</div>
+			<div class="topbar-section topbar-menu">
+				More
+				
+				<img id="arrow" src="images/arrow.png">
+
+			</div>
+			<div class="topbar-section">
+				<input id="search-box" type="text" value="Search">
+				<input type="image" id="magnify-glass" src="images/magnify.png">
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="menu-bar-container">
+			<div id="menu-bar">
+				<h1>
+				NEWS
+				</h1>
+			</div>
+		
+		</div>
+		<div class="clear"></div>
+		<div id="home-bar-container">
+			<div id="home-bar">
+			<div id="home-bar-text home-border">
+				<a href"="">Home</a>
+				<a href"="">Video</a>
+				<a href"="">World</a>
+				<a href"="">Asia</a>
+				<a href"="">UK</a>
+				<a href"="">Business</a>
+				<a href"="">Tech</a>
+				<a href"="">Science</a>
+				<a href"="">Stories</a>
+				<a href"="">Entertainment & Arts</a>
+				<a href"="">Health</a>
+				<a href"="">World News TV </a>
+				<a href"="" class="no-border">More</a>
+			<img id="more-arrow" src="images/more-arrow.png">
+			</div>
+			</div>
+		
+		</div>
+		
+		<div class="clear"></div>
+		<div id="article-container">
+				<div id="main-article">
+					<h2>Technology</h2>
+					<div id="article-container2">	
+						<h3>WhatsApp discovers surveillance attack</h3>
+						<div id="article-body">
+						<p>"An advanced cyber actor" exploited a major flaw in the Facebook-owned messaging service, WhatsApp confirms.</p>
+						<p><img class="clock" src="images/clock.png"><span class="date">14 May 2019</span><a  id="page-link" href="">Technology</a></p>
+						<hr id="article-hr" align="left">
+						<p><a class="links" href="">WhatsApp restricts message-sharing</a></p>
+						<p><a class="links" href="">Who cracked the iPhone?</a></p>
+						<p><a class="links" href="">WhatsApp 'weaponised' in Brazil election</a></p>
+						<p><a class="links" href="">WhatsApp sets new rules amid mob killings</a></p>
+						</div>
+						<img id="whatsapp" src="images/whatsapp.png">
+					</div>
+				</div>
+				<div id="video-container">
+					<p id="video-head">Watch/Listen</p>
+					<img src="images/v1.png" class="video-image">
+					<div class="video-article">
+						<a href="" class="video-link">A dress with 3D- painted petals</a>
+						<div class="video-time"><p><img class="clock" src="images/clock.png"><span class="date">10 May 2019</span><a  id="page-link" href="">Technology</a></p></div>
+					</div>
+					<div class="clear"></div>	
+					<img src="images/v2.png" class="video-image">
+					<div class="video-article">
+						<a href="" class="video-link">A robot that can copy your handwriting</a>
+						<div class="video-time"><p><img class="clock" src="images/clock.png"><span class="date">8 May 2019</span><a  id="page-link" href="">Technology</a></p></div>
+					</div>		
+					<div class="clear"></div>	
+					<img src="images/v3.png" class="video-image">
+					<div class="video-article">
+						<a href="" class="video-link">Cell-based seafood company secures funding</a>
+						<div class="video-time"><p><img class="clock" src="images/clock.png"><span class="date">3 May 2019</span><a  id="page-link" href="">Technology</a></p></div>
+					</div>
+				</div>
+		</div>
+		
+	</body>
+
+
+
+</html>
+
+
